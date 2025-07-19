@@ -12,4 +12,5 @@ sudo cat << EOF > /etc/httpd/conf.d/tomcat_manager.conf
   ProxyPassReverse / http://localhost:8080/nextwork-web-project/
 </VirtualHost>
 EOF
+u
 
